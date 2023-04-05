@@ -1,6 +1,8 @@
 class Chronometer {
   constructor() {
     // ... your code goes here
+    let currentTime = 0;
+    let intervalId = null;
   }
 
   start(printTimeCallback) {
